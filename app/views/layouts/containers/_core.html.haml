@@ -1,0 +1,36 @@
+.core-bg
+  .container
+    .row.marg75
+      .col-lg-12
+        .promo-white Uw project is onze zorg
+        .promo-p-white afspraken
+    .row.tab-device.marg75
+      .col-lg-6.col-md-6.col-sm-6.col-xs-12
+        .box.visible
+          .core-img
+            = link_to image_tag("devices2.png"), root_path
+        .box
+          .core-img
+            = link_to image_tag("devices3.png"), root_path
+        .box
+          .core-img
+            = link_to image_tag("devices4.png"), root_path
+        .box
+          .core-img
+            = link_to image_tag("devices2.png"), root_path
+      .col-lg-6.col-md-6.col-sm-6.col-xs-12
+        %ul.core-ul.tabs
+          %li.current
+            %i.icon-arrow-right
+            Geweldig design
+          %li
+            %i.icon-arrow-right
+            Op maat gemaakt
+          %li
+            %i.icon-arrow-right
+            Persoonlijk contact
+          %li
+            %i.icon-arrow-right
+            Direct support
+        .but-core
+          %a#contact{href: "#"} meer weten

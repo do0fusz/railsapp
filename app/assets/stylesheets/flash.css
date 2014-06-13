@@ -1,0 +1,23 @@
+#flash {
+  position: fixed;
+  z-index: 1050;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+#flash_errors, #flash_alert {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+#flash_success, #flash_notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+.flashbox {
+  font-size: 32px;
+  padding: 10px;
+  margin: 0 auto;
+  text-shadow: none;
+}

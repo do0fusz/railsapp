@@ -1,0 +1,6 @@
+$('#flash').html("<%= escape_javascript raw(flash_display) %>").hide().fadeIn(500);
+$('#flash').delay(2000).fadeOut(500);
+
+<% if flash.now[:success] -%>
+  $('#new_contact')[0].reset();
+<% end -%>

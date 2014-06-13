@@ -1,0 +1,20 @@
+%header.navbar.navbar-fixed-top.navbar-cyte{role: "navigation"}
+  .container
+    .navbar-header.header
+      %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", type: "button"}
+        %span.sr-only Navigatie
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href: "#"}
+        = image_tag "logo.png"
+    #nav.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a{href: "#home"} Home
+        %li
+          %a{href: "#wat-wij-doen"} Wat wij doen
+        %li
+          %a{href: "#prijzen-en-klanten"} Prijzen & Klanten
+        %li
+          %a{href: "#neem-contact-op"} Contact

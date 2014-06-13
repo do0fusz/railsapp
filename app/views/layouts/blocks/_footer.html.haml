@@ -1,0 +1,19 @@
+.footer
+  .container
+    .row
+      .col-lg-12.marg50
+        .footer-promo Cyte ™ op social media, stay connected!
+        .footer-soc
+          %ul
+            %li
+              = link_to raw("<i class='fa fa-twitter fa-lg'></i>") + " Twitter", "http://www.twitter.com/cytenl", target: "_blank"
+            %li
+              = link_to raw("<i class='fa fa-facebook fa-lg'></i>") + " Facebook", "http://www.facebook.com/cytenl", target: "_blank", class: "foot-facebook"
+            %li
+              = link_to raw("<i class='fa fa-google-plus fa-lg'></i>") + " Google +", "http://plus.google.com/107620772006557406241", target: "_blank", class: "foot-google-plus"
+          .arrow-top
+            %a.scroll{href: "#"}
+              %i.icon-arrow-up
+        .copyright
+          Copyright © 2014
+          %a{href: "http://www.cyte.nl", target: "_blank"} Cyte.nl

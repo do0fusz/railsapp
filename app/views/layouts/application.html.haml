@@ -1,0 +1,46 @@
+!!!
+%html.js.no-touch.cssanimations.csstransitions{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    %meta{content: "", name: "description"}/
+    %meta{content: "", name: "author"}/
+    %link{href: "favicon.png", rel: "shortcut icon"}/
+    %title Cyte.nl | webdevelopment and more
+    
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = csrf_meta_tags
+
+    / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  %body#home{"data-spy" => "scroll", "data-target" => ".navbar-collapse"}
+    #flash
+      - flash.each do |name, msg|
+        .flashbox{:id => "flash_#{name}"}
+          = content_tag :div, msg
+
+    = render 'layouts/blocks/header'
+    = yield
+    = render 'layouts/blocks/footer'
+
+  %script{async: "", src: "https://www.google-analytics.com/analytics.js"}
+  = javascript_include_tag "application", "data-turbolinks-track" => true
+
+  :javascript
+    $(document).ready(function(){
+      $('.slider4').bxSlider({
+        slideWidth: 200,
+        minSlides: 1,
+        maxSlides: 5,
+        moveSlides: 1,
+        slideMargin: 35,
+        auto: true,
+        pause: 4000,
+        speed: 1000,
+        controls:false,
+        pager:false
+      });
+    });
