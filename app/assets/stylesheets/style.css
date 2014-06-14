@@ -25,7 +25,12 @@ body
 }
 
 
-<!--
+
+
+
+
+
+
 .home {
     padding-top: 50px;
     padding-bottom: 150px;
@@ -41,7 +46,12 @@ body
     text-align: center;
 }
 
---!>
+
+
+
+
+
+
 a, button, input[type="submit"]
 {
     -webkit-transition: all 0.3s linear;
