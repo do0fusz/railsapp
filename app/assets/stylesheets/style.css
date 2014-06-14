@@ -24,6 +24,24 @@ body
     font-weight: 300;
 }
 
+
+<!--
+.home {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.special{
+    color: #D4025C;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.center_text{
+    text-align: center;
+}
+
+--!>
 a, button, input[type="submit"]
 {
     -webkit-transition: all 0.3s linear;
@@ -1054,7 +1072,17 @@ ul
     background: #D4025C;
     font-size: 24px;
     border: 1px solid #fff;
-    padding-top: 24px;
+    padding-top: 36px;
+    width: 155px;
+    height: 155px;
+    position: relative;
+    margin-top: -22px;
+}
+
+.feature .pricing-table
+{
+    padding-bottom: -10px;
+    margin-bottom: -40px;
 }
 
 .feature .price-name b
@@ -1066,8 +1094,8 @@ ul
 .feature .price-bg-button a
 {
     background: #fff;
-    color: #9cd05f;
-    border: 1px solid #9cd05f;
+    color: #D4025C;
+    border: 1px solid #D4025C;
 }
 
 .price-name b
