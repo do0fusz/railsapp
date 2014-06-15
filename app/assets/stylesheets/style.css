@@ -294,7 +294,7 @@ ul
 
 .serv-3
 {
-    width: 25%;
+    padding: 0;
     float: left;
     border-right: 2px solid #F1F3F6;
 }
@@ -631,7 +631,6 @@ ul
 {
     background: url(bg-image2.jpg);
     color: #fff;
-    height: 476px;
 }
 
 .bg-white
@@ -1204,7 +1203,6 @@ ul
 {
     background: url(parallax-2.jpg) 100% 50% no-repeat fixed;
     color: #fff;
-    height: 554px;
 }
 
 .parallax-over-2
