@@ -10743,13 +10743,6 @@ body
     font-weight: 300;
 }
 
-
-
-
-
-
-
-
 .home {
     padding-top: 50px;
     padding-bottom: 150px;
@@ -11013,7 +11006,7 @@ ul
 
 .serv-3
 {
-    width: 25%;
+    padding: 0;
     float: left;
     border-right: 2px solid #F1F3F6;
 }
@@ -11350,7 +11343,6 @@ ul
 {
     background: url(bg-image2.jpg);
     color: #fff;
-    height: 476px;
 }
 
 .bg-white
@@ -11923,7 +11915,6 @@ ul
 {
     background: url(parallax-2.jpg) 100% 50% no-repeat fixed;
     color: #fff;
-    height: 554px;
 }
 
 .parallax-over-2
@@ -12552,19 +12543,6 @@ cite
     top: 0;
 }
 
-.flickr_widget_wrapper:hover .flickr_badge_image
-{
-    opacity: 0.3;
-    opacity 350ms: null;
-    -webkit-transition: opacity 350ms;
-}
-
-.flickr_widget_wrapper:hover .flickr_badge_image:hover
-{
-    opacity: 1;
-    opacity 350ms: null;
-    -webkit-transition: opacity 350ms;
-}
 
 .tags li
 {
