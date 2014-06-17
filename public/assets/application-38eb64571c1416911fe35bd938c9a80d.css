@@ -2826,8 +2826,8 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('glyphicons-halflings-regular.eot');
+  src: url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('glyphicons-halflings-regular.woff') format('woff'), url('glyphicons-halflings-regular.ttf') format('truetype'), url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -13365,10 +13365,19 @@ cite
   width:100%;
   position: relative;
 }
+.mobile {
+	display: none;
+}
 
 @media (max-width: 768px) {
 	.team-img {
 		text-align: center;
 		padding-left: 25px;
+	}
+	.mobile {
+		display: block;
+		text-align: center;
+		font-size: 60px;
+		color: rgba(0,0,0, 0.3);
 	}
 }
