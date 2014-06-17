@@ -21,3 +21,14 @@ $("#nav ul li a[href^='#'], #scroll").on('click', function(e) {
      });
 
 });
+
+window.onload = function() {
+
+  var isMobile = window.matchMedia("only screen and (max-width: 768px)");
+
+      if (isMobile.matches) {
+        $(".slider").addClass('swipe');
+        $(".slider").find("div").addClass('swipe-wrap');
+        $(".slider").Swipe();
+      }
+}

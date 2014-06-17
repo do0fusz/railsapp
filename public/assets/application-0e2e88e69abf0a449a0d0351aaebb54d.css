@@ -10758,12 +10758,6 @@ body
     text-align: center;
 }
 
-
-
-
-
-
-
 a, button, input[type="submit"]
 {
     -webkit-transition: all 0.3s linear;
@@ -10951,7 +10945,6 @@ ul
     background: #fff;
     padding: 40px 28px;
     border-bottom: 2px solid #E7E8EC;
-    margin-top: 5px;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -11793,11 +11786,7 @@ ul
     background: #D4025C;
     font-size: 24px;
     border: 1px solid #fff;
-    padding-top: 36px;
-    width: 155px;
-    height: 155px;
-    position: relative;
-    margin-top: -22px;
+    padding-top: 25px;
 }
 
 .feature .pricing-table
@@ -13358,3 +13347,28 @@ cite
     color: #D91E5a;
 }
 
+#background {
+    opacity: 0.5;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  padding-left: 1px;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+	.team-img {
+		text-align: center;
+		padding-left: 25px;
+	}
+}
