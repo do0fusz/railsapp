@@ -13,10 +13,19 @@
   width:100%;
   position: relative;
 }
+.mobile {
+	display: none;
+}
 
 @media (max-width: 768px) {
 	.team-img {
 		text-align: center;
 		padding-left: 25px;
+	}
+	.mobile {
+		display: block;
+		text-align: center;
+		font-size: 60px;
+		color: rgba(0,0,0, 0.3);
 	}
 }
