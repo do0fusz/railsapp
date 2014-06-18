@@ -4,4 +4,4 @@
 # User-agent: *
 # Disallow: /
 
-Sitemap: http://www.cyte.nl/sitemap.xml.gz
+Sitemap: http://www.cyte.nl/sitemap.xml
