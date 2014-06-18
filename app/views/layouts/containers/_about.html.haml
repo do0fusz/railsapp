@@ -2,7 +2,7 @@
   .container
     .row.marg75
       .col-lg-12
-        .promo.purple
+        %h2.promo.purple
           Wij geven
           %b 5
           keer
@@ -13,11 +13,11 @@
         %section.slider
           .flexslider
             %ul.slides
-              %li{style: "width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"}
+              %li
                 = image_tag "showcase_abr.png", draggable: false
-              %li{style: "width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"}
+              %li
                 = image_tag "showcase_link.png", draggable: false
-              %li{style: "width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"}
+              %li
                 = image_tag "showcase_panorama.png", draggable: false
       .col-lg-6.col-md-6.marg50
         .about-block

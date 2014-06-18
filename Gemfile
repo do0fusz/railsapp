@@ -39,6 +39,7 @@ group :doc do
 end
 
 gem 'newrelic_rpm'
+gem 'sitemap_generator'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

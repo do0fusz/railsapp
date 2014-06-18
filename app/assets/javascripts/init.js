@@ -32,3 +32,18 @@ window.onload = function() {
         $(".slider").Swipe();
       }
 }
+
+$(document).ready(function(){
+  $('.slider4').bxSlider({
+    slideWidth: 200,
+    minSlides: 1,
+    maxSlides: 5,
+    moveSlides: 1,
+    slideMargin: 35,
+    auto: true,
+    pause: 4000,
+    speed: 1000,
+    controls:false,
+    pager:false
+  });
+});
