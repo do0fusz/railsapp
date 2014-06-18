@@ -582,23 +582,17 @@ ul
     font-weight: 300;
 }
 
-.about-ul
-{
-    margin-top: 36px;
-}
-
-.about-ul li
+.list
 {
     font-size: 14px;
     font-weight: 300;
     margin-top: 15px;
 }
 
-.about-ul li i
+.list i
 {
     color: #9cd05f;
     padding-right: 7px;
-    font-size: 16px;
 }
 
 .bg-image-1
