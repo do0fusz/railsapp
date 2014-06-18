@@ -9570,16 +9570,6 @@ html[xmlns] .slides {
   background-color: #000;
   text-shadow: 2px 2px #000000;
 }
-.top h1 {
-  font-size: 48px;
-  font-weight: 600;
-  color: #FFF;
-}
-.top h2 {
-  font-size: 30px;
-  margin-top: 0;
-  color: #FFF;
-}
 .navbar-nav {
   float: right;
 }
@@ -9613,11 +9603,6 @@ body {
     color: #FFF;
     background-color: #D4025C;
   }
-}
-.top h3 {
-  margin-top: 50px;
-  color: #FFF;
-  background-color: #D91e5a;
 }
 .top .promo,
 .top .promo-p {
@@ -9662,6 +9647,18 @@ body {
 }
 .navbar-brand {
   margin-left: 0 !important;
+}
+h2.prlx-1-promo {
+  color: #FFF;
+}
+.flexslider ul.slides li {
+  width: 100%; 
+  float: left; 
+  margin-right: -100%; 
+  position: relative; 
+  opacity: 0; 
+  display: block; 
+  z-index: 1;
 }
 @media screen and (max-width: 1200px) {
   .bg-image-2 {
