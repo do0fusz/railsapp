@@ -10,8 +10,14 @@
 }
 .swipe-wrap > div {
   float:left;
-  width:100%;
   position: relative;
+}
+.serv-name.swipe-wrap, .serv-block.swipe-wrap, .pricing-table.swipe-wrap {
+	width: 100%;
+}
+.serv-icon.swipe-wrap {
+	text-align: center;
+	width: 100%;
 }
 .mobile {
 	display: none;
@@ -20,12 +26,19 @@
 @media (max-width: 768px) {
 	.team-img {
 		text-align: center;
-		padding-left: 25px;
+		margin-top: 20px;
+	}
+	.team-desc {
+		width: 100%;
 	}
 	.mobile {
 		display: block;
 		text-align: center;
 		font-size: 60px;
 		color: rgba(0,0,0, 0.3);
+	}
+	.price-name {
+		float: none !important;
+		margin: 0 auto;
 	}
 }
