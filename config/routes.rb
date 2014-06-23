@@ -2,7 +2,6 @@ Realdeal::Application.routes.draw do
   root "pages#index"
 
   post 'contacts/new', as: :contacts
-  post 'contacts/create', as: :contact_create
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
