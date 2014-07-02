@@ -1,3 +1,7 @@
+$(window).load(function() { 
+  $("#spinner").delay(1000).fadeOut(500); 
+})
+
 $(window).scroll(function () {
     $('header').toggleClass('shrink', $(document).scrollTop() > 0);
 });
