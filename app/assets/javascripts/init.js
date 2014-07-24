@@ -1,9 +1,16 @@
-$(window).load(function() { 
-  $("#spinner").delay(1000).fadeOut(500); 
+$(window).load(function() {
+  $("#spinner").delay(1000).fadeOut(500);
 })
 
 $(window).scroll(function () {
-    $('header').toggleClass('shrink', $(document).scrollTop() > 0);
+
+  	if ($(document).scrollTop() <= 0) {
+        $('.navbar-brand img').attr('src', $('.navbar-brand img').attr('orig'));
+      	$('header').removeClass('shrink');
+    } else {
+      	$('.navbar-brand img').attr('src', $('.navbar-brand img').attr('scroll'));
+      	$('header').addClass('shrink');
+    }
 });
 
 $("#nav ul li a[href^='#'], #scroll").on('click', function(e) {
