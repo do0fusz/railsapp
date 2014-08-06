@@ -364,7 +364,7 @@ ul
     font-weight: 300;
     font-size: 20px;
     padding-top: 8px;
-    color: #b9c6e6;
+    color: #fff;
 }
 
 .promo-p a
@@ -418,7 +418,7 @@ ul
 .but-core a
 {
     padding: 17px 64px;
-    background: #9cd05f;
+    background: #d2105d;
     border-radius: 5px;
     color: #fff;
     font-size: 15px;
@@ -1575,7 +1575,8 @@ ul
 
 .current
 {
-    color: #dbffb0 !important;
+    color: #d2105d !important;
+    font-weight: 600 !important;
 }
 
 .cbp-l-grid-projects .cbp-caption
