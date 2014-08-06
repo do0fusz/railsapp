@@ -611,18 +611,43 @@ ul
     color: #fff;
 }
 
+
+.pricing-tables-bg{
+    background: url(bg-image2.jpg);
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+
+
 .bg-image-toner-1
 {
     background: rgba(0,0,0,0.75);
     padding-bottom: 75px;
 }
 
-.bg-image-2
 {
     background: url(bg-image2.jpg);
     padding-bottom: 100px;
     color: #fff;
 }
+
+
+.bg-image-2
+{
+    background: url(parallax-1.jpg) 100% 50% no-repeat fixed;
+    color: #fff;
+}
+
+.bg-image-over-2
+{
+    background-color: rgba(0, 0, 0, 0.70);
+    min-height: 654px;
+    max-height: 100%;
+}
+
+
+
 
 .bg-white
 {
